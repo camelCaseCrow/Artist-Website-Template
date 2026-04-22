@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* *** FIX FORMATTING */
+.grid_container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr); /* width defined in .img */
+  
+  column-gap: 1rem;
+  row-gap : 4rem;
+
+  /* alignment of items inside each grid cell */
+  justify-items: center; /* horizontal */
+  align-items: center; /*vertical */
+
+  /* // alignment of grid within grid container (not entire website)
+  justify-content: space-between; 
+  align-content: center;  */
+
+  /* padding: 0.5rem; */
+}
+
+.col_first {
+  grid-column: 1 /span 6;
+}
+
+.col_second {
+  grid-column: 7 / span 6;
+}
+
+.col_third {
+  grid-column: 4 / span 6;
+}
+
+.col_style{
+  background-color: transparent; /*otherwise it defaults to having a white one*/
+  border: none;
+}
+        
+
+.text_positioning {
+  display: flex;
+  justify-content: space-between; /* title to the left, date to the right */
+  
+  padding: 0.5rem 0.2rem 0rem; /* top right&left bottom*/
+
+  font-size: 1rem;
+  color: #333333;
+  font-family:"Work Sans";
+}
+
+.img {
+    width: 100%; /* fill box contairner */
+    min-width: 10rem;
+    max-width: 35rem;
+    aspect-ratio: 35 / 22;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+@media (max-width: 960px) {
+  .grid_container {
+    display: grid;
+    grid-template-columns: 1fr; /* width defined in .img */
+    
+    row-gap : 4rem;
+
+    justify-items: center; /* horizontal alignment */
+    align-items: center; /*vertical alignment */
+
+    justify-content: center;
+    align-content: center;
+
+    padding: rem; 
+  }
+  .col_first,
+  .col_second,
+  .col_third {
+   grid-column: 1 /span 12;
+  }   
+}
+
+
+/* from stackoverflow */
+/* // 2 columns - first 2 col elements take up 6 columns each 
+.col:nth-child(-1n + 2) { 
+  grid-column: span 6;
+}
+
+.col:nth-child(-1n + 2) {
+  grid-column: span 6;
+}
+
+// 1 column - last col element starts on 4th column and takes up 6 columns
+.col:nth-last-child(1) {
+  grid-row-start: 2; // start on second row 
+  grid-column: 4 / span 6;
+} */

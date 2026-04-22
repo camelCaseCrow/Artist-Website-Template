@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+}
+
+body {
+    margin: 0;
+    background-color: #F5F5F5;
+    /* color: #333333;
+    font-family:"Work Sans";
+    white-space: pre-line;
+    padding: 0 2rem; */
+}
+
+.site {
+    min-height: 100dvh; /* page is at least size of viewport, footer won't end up in middle of page */
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* size of header, main page content, footer */
+    grid-template-columns: minmax(0, 1fr);
+}
+
+/* default_page_layout {
+  padding: 2rem;
+} */
+

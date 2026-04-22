@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.nav {
+    background-color: #F5F5F5;
+    color: #6b6b6b;
+    /* color: #8C8594; */
+
+    
+    display: flex;
+    justify-content: space-between; /* space between title and links */
+    align-items: center;
+    gap: 2rem; /* prevent elements getting too close*/
+    padding: 0 2.5rem; /* 0 padding top, 2rem padding left and right*/
+    padding-top: 1.3rem;
+    padding-bottom: 1rem;
+    /* border-bottom: 1px solid #e0e0e0; */
+}
+
+.site_title {
+    font-family: "Libre Baskerville";
+    font-size: 1.8rem; /* !!change */
+}
+
+/* for nav links */
+.nav_links {
+    font-family:"Work Sans";
+    font-size: 1.2rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1.5rem
+}
+
+.nav_a {
+    color: inherit;
+    text-decoration: none; /* get rid of underlines */
+    /* height: 100%;
+    display: flex;
+    align-items: center; */
+    padding: .25rem;
+    
+}
+
+
+.nav_hover li:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.nav_active li[class*="active"]{
+    text-decoration: underline;
+    text-underline-position: under;
+}

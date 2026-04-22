@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.heading {
+    color: #000000b7;
+    font-family: "Libre Baskerville";
+    white-space: pre-line;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.mainText {
+    color: #333333;
+    font-family:"Work Sans";
+    font-size: 1.2rem;
+    white-space: pre-line;
+
+    padding: 0 4rem;
+}

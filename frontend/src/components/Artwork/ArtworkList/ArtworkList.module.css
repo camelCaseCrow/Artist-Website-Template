@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.grid_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr)); 
+
+  column-gap: 2rem;
+  row-gap : 2rem;
+
+  /* alignment of items inside each grid cell */
+  justify-items: center; /* horizontal */
+  align-items: start; /*vertical */
+
+  /* // alignment of grid within grid container (not entire website)
+  justify-content: space-between; 
+  align-content: center;  */
+
+  /* padding: 0.5rem; */
+}
+
+.body {
+  padding: 0px min(50px, 7%) 0px;
+}
+
+.col_style{
+  background-color: transparent; /*otherwise it defaults to having a white one*/
+  border: none;
+}
+        
+
+.text_positioning {
+  display: flex;
+  justify-content: space-between; /* title to the left, date to the right */
+  
+  padding: 0.5rem 0.2rem 0rem; /* top right&left bottom*/
+
+  font-size: 1rem;
+  color: #333333;
+  font-family:"Work Sans";
+}
+
+.img {
+    width: 100%; /* fill box container */
+    max-width: 20rem;
+    aspect-ratio: 9 / 12;
+    height: auto;
+
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

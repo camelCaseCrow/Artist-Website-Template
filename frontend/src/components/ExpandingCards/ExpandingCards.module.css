@@ -1,0 +1,66 @@
+/* FIX ** gap between cards when sub heading is longer, use grid? */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* layout for all cards */
+.section {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      /* gap: 1rem; */
+      padding: 5rem 2rem 0rem;
+    }
+
+/* for aligning image and subheading */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* subheading at centre of card */
+}
+    
+.img {
+      width: 12rem; /*192px*/
+      height: 27rem; /*432px*/
+      object-fit: cover;
+      border-radius: 2px; /* round corners of cards */
+      margin-left: 0.75rem;
+      margin-right: 0.75rem;
+      cursor: pointer;
+      filter: grayscale(100%);
+      transition: width 0.5s ease-in-out, filter 0.5s ease-in-out;
+    }
+
+.img:hover {
+    width: 20rem; /* 320px */
+    filter: grayscale(0%);
+  }
+
+.img_position_odd {
+    position: relative;
+    top: 3rem;
+}
+
+.subheading_active {
+    /* position: absolute; */ /* prevent gap problem */
+    /* visibility: visible;
+    transition-delay: 0.3s;
+    transition-property: visibility ; */
+    font-size: 1.5rem;
+    color: #333333;
+    font-family:"Work Sans";
+
+    position: relative; 
+    top: 0.5rem;
+    
+}
+
+.subheading_not_active {
+    /* position: absolute; */
+    font-size: 1.5rem;
+    visibility: hidden;
+}
+
+
+.subheading_position_odd {
+    position: relative;
+    top: 3.5rem; /* 3 + 0.5rem */
+} 

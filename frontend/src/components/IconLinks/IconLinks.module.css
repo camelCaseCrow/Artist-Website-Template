@@ -1,0 +1,17 @@
+.section {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+      /* padding: 2rem; */
+    }
+
+.img {
+    width: 2rem; 
+    height: 2rem; 
+    object-fit: cover;
+    cursor: pointer;
+    filter: grayscale(100%);
+    /* filter: opacity(70%); */
+}
