@@ -1,0 +1,21 @@
+.section {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: start;
+      gap: 10rem;
+      padding: 0px 50px 0px;
+      
+    }
+
+.img {
+      /* width: 12rem;  */
+      /* height: 27rem;  */
+      width: 100%; /* fill box contairner */
+      max-width: 25rem;
+      height: auto;
+      /* aspect-ratio: 11 / 16; */
+      object-fit: cover;
+      border-radius: 5px; /* round corners of cards */
+    
+    }
