@@ -38,7 +38,7 @@ If you are getting a Pylance import issue 'Import "[insert some module]" could n
 To do this in VScode, go to <mark>View > Command Palette > Python: select interpreter > (select the one where Django is installed aka the venv) </mark>[^1]
 ### 5. Create an .env file
 Do this in the same backend folder you are currently in and add the following contents:
-```
+```.env
 SECRET_KEY=your-secret-key-here
 DEBUG=True
 ALLOWED_HOSTS=127.0.0.1,localhost
