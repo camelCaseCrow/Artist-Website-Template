@@ -1,9 +1,30 @@
 # Django + React Artist Portfolio Website
 A full-stack template website to sell artworks and write blogs. 
 
-## Demo
+<img width="1917" height="878" alt="Image" src="https://github.com/user-attachments/assets/63de1d9d-6d28-402f-8d61-63315cd83ec6" />
 
-## Functionality and Pages
+## Demo and Pages
+**Pages include:**
+- Work, within the expanding cards:
+  - Paintings
+  - Drawings
+  - Videos
+  - Shop
+  - (These pages can be customised)
+- About
+- Blog
+- Contact
+### Work Page 
+
+https://github.com/user-attachments/assets/5c0590a5-1134-46aa-bb36-2757bc288b56
+
+### Paintings/Drawings Page
+
+### About Page
+
+## Blog Page
+
+### Contact Page
 
 ## Setup
 Based on VScode as the IDE and bash terminal
@@ -59,6 +80,12 @@ python manage.py runserver
 ```
 ## Customise
 
-## To be added
-
+## To be added/updated
+- PayPal API
+- Emails for contact form submission
+- Spam detection for contact form
+- Enquire button functionality
+- Art description showing on frontend
+- Bug with date displayed when blog is created
+- General formating issues
 [^1]:https://stackoverflow.com/questions/72782262/import-django-db-models-could-not-be-resolved-from-source-py-manage-py-makem
