@@ -46,7 +46,7 @@ https://github.com/user-attachments/assets/5c0590a5-1134-46aa-bb36-2757bc288b56
 
 ### About Page
 
-## Blog Page
+### Blog Page
 
 ### Contact Page
 
