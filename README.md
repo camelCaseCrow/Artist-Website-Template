@@ -4,6 +4,7 @@ A full-stack template website to sell artworks and write blogs.
 <img width="1917" height="878" alt="Image" src="https://github.com/user-attachments/assets/63de1d9d-6d28-402f-8d61-63315cd83ec6" />
 
 ## Demo and Pages
+
 **Pages include:**
 - Work, page links from the expanding cards:
   - Paintings
@@ -52,11 +53,15 @@ https://github.com/user-attachments/assets/17752f24-83b4-4e2e-bad0-f6de15256030
 
 https://github.com/user-attachments/assets/371d14ec-3dc1-42c7-840a-44fb830eebaf
 
-
-
 ### Blog Page
 
+https://github.com/user-attachments/assets/b60a2bcd-cc20-4fff-abf2-f69d12a813eb
+
+https://github.com/user-attachments/assets/e78187c9-c3bb-4720-931e-2f8903c0300a
+
 ### Contact Page
+
+https://github.com/user-attachments/assets/4925d8a1-6cd7-4677-93fa-cdab706fed14
 
 ## Setup
 Based on VScode as the IDE and bash terminal
@@ -110,10 +115,6 @@ python manage.py createsuperuser
 ```bash
 python manage.py runserver
 ```
-
-https://github.com/user-attachments/assets/7fef883c-2074-4531-a464-11347001ca8e
-
-
 
 ## To be added/updated
 - PayPal API
