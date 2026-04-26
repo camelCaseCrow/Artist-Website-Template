@@ -44,7 +44,15 @@ https://github.com/user-attachments/assets/5c0590a5-1134-46aa-bb36-2757bc288b56
 - [Length of time for fading animation](https://github.com/camelCaseCrow/Artist-Website-Template/blob/49ec1717df4471d601b0e3d2f2fdf4a6a059a780/frontend/src/components/ExpandingCards/ExpandingCards.module.css#L29)
 ### Paintings/Drawings Page
 
+https://github.com/user-attachments/assets/e20bad27-bd37-4b9a-918a-3e3602acbea7
+
+https://github.com/user-attachments/assets/17752f24-83b4-4e2e-bad0-f6de15256030
+
 ### About Page
+
+https://github.com/user-attachments/assets/371d14ec-3dc1-42c7-840a-44fb830eebaf
+
+
 
 ### Blog Page
 
@@ -102,7 +110,10 @@ python manage.py createsuperuser
 ```bash
 python manage.py runserver
 ```
-## Customise
+
+https://github.com/user-attachments/assets/7fef883c-2074-4531-a464-11347001ca8e
+
+
 
 ## To be added/updated
 - PayPal API
