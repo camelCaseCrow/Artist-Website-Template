@@ -5,7 +5,7 @@ A full-stack template website to sell artworks and write blogs.
 
 ## Demo and Pages
 **Pages include:**
-- Work, within the expanding cards:
+- Work, page links from the expanding cards:
   - Paintings
   - Drawings
   - Videos
@@ -14,10 +14,34 @@ A full-stack template website to sell artworks and write blogs.
 - About
 - Blog
 - Contact
+
+**React components used on each page:**
+- [Navbar](https://github.com/camelCaseCrow/Artist-Website-Template/blob/49ec1717df4471d601b0e3d2f2fdf4a6a059a780/frontend/src/components/Navbar/Navbar.tsx)
+- [SocialMediaIcons](https://github.com/camelCaseCrow/Artist-Website-Template/blob/49ec1717df4471d601b0e3d2f2fdf4a6a059a780/frontend/src/components/IconLinks/SocialMediaIcons.tsx)
 ### Work Page 
+**React components used:**
+- [ExpandingCards](https://github.com/camelCaseCrow/Artist-Website-Template/blob/49ec1717df4471d601b0e3d2f2fdf4a6a059a780/frontend/src/components/ExpandingCards/ExpandingCards.tsx)
+- [Work](https://github.com/camelCaseCrow/Artist-Website-Template/blob/49ec1717df4471d601b0e3d2f2fdf4a6a059a780/frontend/src/pages/Work.tsx)
 
 https://github.com/user-attachments/assets/5c0590a5-1134-46aa-bb36-2757bc288b56
 
+**ExpandingCards customisation:**
+
+*In [Work.tsx](https://github.com/camelCaseCrow/Artist-Website-Template/blob/49ec1717df4471d601b0e3d2f2fdf4a6a059a780/frontend/src/pages/Work.tsx):*
+- Number of cards
+  - [Adding/deleting an item in the cards array changes the number of cards displayed](https://github.com/camelCaseCrow/Artist-Website-Template/blob/49ec1717df4471d601b0e3d2f2fdf4a6a059a780/frontend/src/pages/Work.tsx#L10-L24)
+- Image
+- Subheading
+- Link
+  
+*In [ExpandingCards.tsx](https://github.com/camelCaseCrow/Artist-Website-Template/blob/49ec1717df4471d601b0e3d2f2fdf4a6a059a780/frontend/src/components/ExpandingCards/ExpandingCards.tsx) and CSS:*
+- Height positioning of cards relative to other cards
+  - Every other one alternates based on an odd or even index
+  - This could be updated to be different heights for any number eg. different on 1st, 2nd and 3rd, then repeat pattern
+  - For card positioning, update [this part](https://github.com/camelCaseCrow/Artist-Website-Template/blob/49ec1717df4471d601b0e3d2f2fdf4a6a059a780/frontend/src/components/ExpandingCards/ExpandingCards.tsx#L26-L31) in .tsx file, then [this part](https://github.com/camelCaseCrow/Artist-Website-Template/blob/49ec1717df4471d601b0e3d2f2fdf4a6a059a780/frontend/src/components/ExpandingCards/ExpandingCards.module.css#L37-L40) in .css file
+  - For subheading positioning, update [this part](https://github.com/camelCaseCrow/Artist-Website-Template/blob/49ec1717df4471d601b0e3d2f2fdf4a6a059a780/frontend/src/components/ExpandingCards/ExpandingCards.tsx#L45-L47) in .tsx file, then [this part](https://github.com/camelCaseCrow/Artist-Website-Template/blob/49ec1717df4471d601b0e3d2f2fdf4a6a059a780/frontend/src/components/ExpandingCards/ExpandingCards.module.css#L63-L66) in .css file
+- [Size of card](https://github.com/camelCaseCrow/Artist-Website-Template/blob/49ec1717df4471d601b0e3d2f2fdf4a6a059a780/frontend/src/components/ExpandingCards/ExpandingCards.module.css#L20-L22)
+- [Length of time for fading animation](https://github.com/camelCaseCrow/Artist-Website-Template/blob/49ec1717df4471d601b0e3d2f2fdf4a6a059a780/frontend/src/components/ExpandingCards/ExpandingCards.module.css#L29)
 ### Paintings/Drawings Page
 
 ### About Page
